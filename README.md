@@ -128,9 +128,15 @@ Example using curl to create a transaction:
 curl -X POST http://localhost:8000/create_transaction -H "Content-Type: application/json" -d '{"to_address": "recipient_public_key", "credential_id": "Certified Developer", "details": "Issued by University X"}'
 ```
 
+
 Example-result : 
 
+
+
 <img width="1920" height="1140" alt="Screenshot 2025-09-19 220408" src="https://github.com/user-attachments/assets/084f482d-6797-4790-9d84-f2a5cdb376ea" />
+
+
+-----------------
 
 
 # Blockchain Persistence
