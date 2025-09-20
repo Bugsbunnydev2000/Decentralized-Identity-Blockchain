@@ -1,0 +1,91 @@
+{
+    "chain": [
+        {
+            "index": 0,
+            "timestamp": "2025-09-19T21:51:55.212451",
+            "transactions": [],
+            "merkle_root": "0",
+            "previous_hash": "0",
+            "validator": "Genesis Validator",
+            "nonce": 0,
+            "hash": "92351467f332dda5d707f21180d5be8c1478fefdcf09eede9575e0774d1c2310"
+        },
+        {
+            "index": 1,
+            "timestamp": "2025-09-19T21:52:18.273782",
+            "transactions": [
+                {
+                    "from_address": "ad1733c537fd358ad6fc685260cf3e3e294bb28078b2f863baf6f8d6210bdfe3e2892392ee52524d5043b6bb327d039928c5218c749437df676fcbe2e62c0930",
+                    "to_address": "28c770d660d2894e203c5d9c5d6bf2ec7bb2fa6f3565c476e0d8615d0ce4200778ea4fc3cf0ead2dead191bf4be9563451882946cf2ee38b12b8bae51559f02d",
+                    "data": {
+                        "identity": "Alice",
+                        "credential": "Certified Developer",
+                        "details": "Issued by University X"
+                    },
+                    "timestamp": "2025-09-19T21:52:18.265003",
+                    "signature": "49155f99d1b78d33ccc8a26fa941711056b82f2812672fbf0df295700c4a36a5481b2356ea9d0c7b88119ba0de508b098403defc14f9c379f7fa22acaa9bb366"
+                },
+                {
+                    "from_address": "28c770d660d2894e203c5d9c5d6bf2ec7bb2fa6f3565c476e0d8615d0ce4200778ea4fc3cf0ead2dead191bf4be9563451882946cf2ee38b12b8bae51559f02d",
+                    "to_address": "ad1733c537fd358ad6fc685260cf3e3e294bb28078b2f863baf6f8d6210bdfe3e2892392ee52524d5043b6bb327d039928c5218c749437df676fcbe2e62c0930",
+                    "data": {
+                        "identity": "Bob",
+                        "credential": "Verified User"
+                    },
+                    "timestamp": "2025-09-19T21:52:18.268254",
+                    "signature": "b2e6ca9e44fe5daee4c9881af965050b84c8625f543cdc54015762f318be7bd81d9123ae9eb9dae734009596c45a357aa7edaf0d0f59310cf52b4a7405cc8786"
+                }
+            ],
+            "merkle_root": "2435e41fae679bb8884d9e5ac556a67089f5c465986657516ad9e29a69351273",
+            "previous_hash": "92351467f332dda5d707f21180d5be8c1478fefdcf09eede9575e0774d1c2310",
+            "validator": "ad1733c537fd358ad6fc685260cf3e3e294bb28078b2f863baf6f8d6210bdfe3e2892392ee52524d5043b6bb327d039928c5218c749437df676fcbe2e62c0930",
+            "nonce": 1503,
+            "hash": "0001fa9d4744a8c6bfff0aa975e64509319c3de3d5ad82514c59a95cd2756479"
+        },
+        {
+            "index": 2,
+            "timestamp": "2025-09-19T21:53:15.759754",
+            "transactions": [
+                {
+                    "from_address": "09af6ef2444b82718a4ade88a1f9445f1e688c102fb7f9e73da6b9e3aee1e9608d2616c543014d44234eda244d29929400339159bef02a70eb70a49040fb3fbd",
+                    "to_address": "3fd9b04868ffcd80a101d3c9dbca4de36b9af8eb1ad81efa49f51cbf3890d17129c1107d1c3c03aa44d47e21dc0545db32b4af83c8d41741a72bc57d83040bfd",
+                    "data": {
+                        "identity": "Alice",
+                        "credential": "Certified Developer",
+                        "details": "Issued by University X"
+                    },
+                    "timestamp": "2025-09-19T21:53:15.749744",
+                    "signature": "0a11a1d8387786ca6bf43091219ac24ffcbbf552d18cdea381f008e28951f197ba184c14dac88c7afcd02918fa72f753cfba15b4de788b5ad42b65c5550ec64c"
+                },
+                {
+                    "from_address": "3fd9b04868ffcd80a101d3c9dbca4de36b9af8eb1ad81efa49f51cbf3890d17129c1107d1c3c03aa44d47e21dc0545db32b4af83c8d41741a72bc57d83040bfd",
+                    "to_address": "09af6ef2444b82718a4ade88a1f9445f1e688c102fb7f9e73da6b9e3aee1e9608d2616c543014d44234eda244d29929400339159bef02a70eb70a49040fb3fbd",
+                    "data": {
+                        "identity": "Bob",
+                        "credential": "Verified User"
+                    },
+                    "timestamp": "2025-09-19T21:53:15.753163",
+                    "signature": "b4e34c58372d067e7d1a22f19a03850fa136b1ffae5fce6c54c7d2a09237be069828c9ec2f4ad41a77c3045df824bd29d3dd7ec5dff4172fab6ad7c432e72c3f"
+                }
+            ],
+            "merkle_root": "d4a7bbefbb4e39c98e898fe43f52c35c54003e76654d9cdc4b8f1cb72d70919c",
+            "previous_hash": "0001fa9d4744a8c6bfff0aa975e64509319c3de3d5ad82514c59a95cd2756479",
+            "validator": "ad1733c537fd358ad6fc685260cf3e3e294bb28078b2f863baf6f8d6210bdfe3e2892392ee52524d5043b6bb327d039928c5218c749437df676fcbe2e62c0930",
+            "nonce": 3984,
+            "hash": "0001d86a4794afafb463bbcdc984d9683afbe949f2acb788f18919b70fedc525"
+        }
+    ],
+    "difficulty": 3,
+    "stake": {
+        "ad1733c537fd358ad6fc685260cf3e3e294bb28078b2f863baf6f8d6210bdfe3e2892392ee52524d5043b6bb327d039928c5218c749437df676fcbe2e62c0930": 100,
+        "28c770d660d2894e203c5d9c5d6bf2ec7bb2fa6f3565c476e0d8615d0ce4200778ea4fc3cf0ead2dead191bf4be9563451882946cf2ee38b12b8bae51559f02d": 50,
+        "09af6ef2444b82718a4ade88a1f9445f1e688c102fb7f9e73da6b9e3aee1e9608d2616c543014d44234eda244d29929400339159bef02a70eb70a49040fb3fbd": 100,
+        "3fd9b04868ffcd80a101d3c9dbca4de36b9af8eb1ad81efa49f51cbf3890d17129c1107d1c3c03aa44d47e21dc0545db32b4af83c8d41741a72bc57d83040bfd": 50
+    },
+    "nodes": [
+        [
+            "localhost",
+            5001
+        ]
+    ]
+}
